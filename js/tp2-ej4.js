@@ -5,7 +5,7 @@ do{
   let numero = prompt("Introduce un numero");
   if(Number(numero) == numero){
     numero = Number(numero);
-    suma = suma + numero;
+    document.write(suma = suma + numero);
   }else{if(numero != undefined){
       alert(numero + " No es un numero");
     }
